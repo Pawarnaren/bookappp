@@ -89,7 +89,10 @@ app.post('/login', async (req, res) => {
                 if (err) {
                     throw err;
                 }
-                res.cookie('token', token).json(userDataDoc)
+                res.cookie('token', token,{
+                    sameSite:'none',
+                    secure:true
+                }).json(userDataDoc)
             })
             // res.json('pass ok')
         } else {
