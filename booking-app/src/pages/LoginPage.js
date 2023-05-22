@@ -27,9 +27,6 @@ const LoginPage = () => {
     return <Navigate to={'/'} />
   }
 
-
-
-
   return (
     <div className='flex items-center justify-around mt-4 grow'>
         <div className='mb-60'>
