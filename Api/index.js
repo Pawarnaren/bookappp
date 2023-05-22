@@ -32,6 +32,7 @@ app.use(cors({
     origin: ['http://localhost:3000','https://booking-app-naren.netlify.app'],
 }));
 
+// just checking
 
 // console.log(process.env.MONGO_URL)
 // mongoose connecting to our database
@@ -171,7 +172,7 @@ app.post('/places', (req, res) => {
 })
 
 
-app.get('/user-places', (req, res) => {
+app.get('/user-places',  (req, res) => {
     const { token } = req.cookies;
     console.log('from user-places',token)
     jwt.verify(token, jwtSecret, {}, async (err, userData) => {
