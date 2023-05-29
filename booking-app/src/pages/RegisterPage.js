@@ -8,7 +8,7 @@ const RegisterPage = () => {
   const[name, setName] = useState('');
   const[email, setEmail] = useState('');
   const[password, setPassword] = useState('');
-  const[account, toggleAccount] = useState(login)
+  const[account, toggleAccount] = useState('login')
 
 
 
