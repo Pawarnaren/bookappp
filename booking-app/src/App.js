@@ -14,7 +14,7 @@ import BookingsPage from './pages/BookingsPage';
 import BookingPage from './pages/BookingPage';
 
 
-axios.defaults.baseURL = 'https://bookappp-production.up.railway.app'
+axios.defaults.baseURL = 'https://bookappp-production.up.railway.app/'
 axios.defaults.withCredentials = true;
 
 
