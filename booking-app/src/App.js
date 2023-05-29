@@ -14,7 +14,7 @@ import BookingsPage from './pages/BookingsPage';
 import BookingPage from './pages/BookingPage';
 
 
-axios.defaults.baseURL = 'https://booking-naren.onrender.com'
+axios.defaults.baseURL = 'https://adventurous-crow-fedora.cyclic.app'
 axios.defaults.withCredentials = true;
 
 
