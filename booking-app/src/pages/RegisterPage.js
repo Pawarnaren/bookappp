@@ -8,6 +8,9 @@ const RegisterPage = () => {
   const[name, setName] = useState('');
   const[email, setEmail] = useState('');
   const[password, setPassword] = useState('');
+  const[account, toggleAccount] = useState(login)
+
+
 
   // Function for submitting the users
   async function registerUser(ev){
@@ -19,6 +22,7 @@ const RegisterPage = () => {
         password,   
       });
       alert('Registration completed now you can login!')
+
     }catch(e){
       alert('Registration failed pls try again later')
     }
